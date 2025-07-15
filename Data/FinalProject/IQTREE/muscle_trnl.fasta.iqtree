@@ -1,0 +1,382 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: muscle_trnl.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 762800
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 1042 nucleotide sites
+Number of constant sites: 597 (= 57.2937% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 597 (= 57.2937% of all sites)
+Number of parsimony informative sites: 334
+Number of distinct site patterns: 517
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: K3Pu+F+I+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+K3Pu+F+I+R2       -3972.398    8354.796 -   0.0221    8455.825 +   0.0798    9369.320 +    0.811
+TVM+F+I+R2        -3967.218    8348.437 +    0.532    8451.688 +    0.632    9372.858 +    0.138
+TIM+F+I+R2        -3972.355    8356.709 -  0.00851    8458.846 -   0.0176    9376.182 -   0.0262
+K3Pu+F+R3         -3972.791    8357.581 -   0.0055    8459.718 -   0.0114    9377.054 -    0.017
+GTR+F+I+R2        -3967.150    8350.300 +     0.21    8454.674 +    0.142    9379.670 -  0.00458
+TVM+F+R3          -3967.629    8351.259 +     0.13    8455.633 +   0.0879    9380.629 -  0.00284
+TIM+F+R3          -3972.749    8359.497 -  0.00211    8462.749 -   0.0025    9383.919 - 0.000548
+GTR+F+R3          -3967.580    8353.160 +   0.0502    8458.665 -   0.0193    9387.480 - 9.24e-05
+GTR+F+I+R3        -3966.997    8353.994 -   0.0331    8460.636 -   0.0072    9393.262 - 5.13e-06
+GTR+F+G4          -3981.027    8374.054 - 1.46e-06    8476.191 - 3.02e-06    9393.527 - 4.49e-06
+GTR+F+R4          -3967.595    8357.189 -  0.00669    8464.977 - 0.000822    9401.406 - 8.74e-08
+GTR+F+R2          -3982.850    8379.700 - 8.66e-08    8482.952 - 1.03e-07    9404.122 - 2.25e-08
+GTR+F+I+G4        -3982.954    8379.907 -  7.8e-08    8483.159 - 9.26e-08    9404.329 - 2.03e-08
+GTR+F+I           -3987.754    8387.508 - 1.75e-09    8489.644 - 3.62e-09    9406.981 - 5.38e-09
+TPM2u+F+I+R2      -3992.399    8394.798 - 4.56e-11    8495.826 - 1.64e-10    9409.322 - 1.67e-09
+GTR+F             -3994.504    8399.009 - 5.55e-12    8500.037 -    2e-11    9413.532 - 2.03e-10
+TIM2+F+I+R2       -3992.255    8396.509 - 1.94e-11    8498.646 - 4.02e-11    9415.982 - 5.97e-11
+TPM2u+F+R3        -3992.750    8397.500 - 1.18e-11    8499.636 - 2.45e-11    9416.972 - 3.64e-11
+TIM2+F+R3         -3992.613    8399.225 - 4.98e-12    8502.477 - 5.91e-12    9423.647 - 1.29e-12
+TPM3u+F+I+R2      -4003.054    8416.107 - 1.08e-15    8517.136 - 3.88e-15    9430.631 - 3.94e-14
+HKY+F+I+R2        -4007.637    8423.274 - 2.99e-17    8523.203 - 1.87e-16    9432.849 -  1.3e-14
+TIM3+F+I+R2       -4002.971    8417.943 -  4.3e-16    8520.079 -  8.9e-16    9437.415 - 1.32e-15
+TPM3u+F+R3        -4003.114    8418.228 - 3.73e-16    8520.364 - 7.72e-16    9437.701 - 1.15e-15
+TN+F+I+R2         -4007.531    8425.063 - 1.22e-17    8526.092 - 4.41e-17    9439.587 - 4.47e-16
+HKY+F+R3          -4007.892    8425.783 - 8.52e-18    8526.812 - 3.07e-17    9440.307 - 3.12e-16
+TIM3+F+R3         -4003.038    8420.076 - 1.48e-16    8523.328 - 1.75e-16    9444.498 - 3.84e-17
+TN+F+R3           -4007.787    8427.574 - 3.48e-18    8529.711 - 7.21e-18    9447.047 - 1.07e-17
+F81+F+I+R2        -4026.788    8459.576 - 3.91e-25    8558.411 - 4.22e-24    9464.202 - 2.02e-21
+F81+F+R3          -4027.002    8462.005 - 1.16e-25    8561.933 - 7.26e-25    9471.580 - 5.05e-23
+K3P+I+R2          -4089.658    8583.316 - 5.28e-52    8681.065 - 9.81e-51    9582.993 - 3.24e-47
+TIMe+I+R2         -4088.625    8583.250 - 5.46e-52    8682.085 - 5.89e-51    9587.876 - 2.82e-48
+K3P+R3            -4090.877    8587.754 - 5.74e-53    8686.589 -  6.2e-52    9592.380 - 2.96e-49
+TVMe+I+R2         -4088.375    8584.750 - 2.58e-52    8684.678 - 1.61e-51    9594.325 - 1.12e-49
+TIMe+R3           -4089.971    8587.942 - 5.23e-53    8687.871 - 3.27e-52    9597.517 - 2.27e-50
+SYM+I+R2          -4087.499    8584.998 - 2.28e-52    8686.027 - 8.21e-52    9599.522 - 8.34e-51
+TVMe+R3           -4089.710    8589.420 -  2.5e-53    8690.448 -    9e-53    9603.944 - 9.14e-52
+SYM+R3            -4088.801    8589.602 - 2.28e-53    8691.738 - 4.72e-53    9609.074 - 7.03e-53
+K2P+I+R2          -4107.469    8616.938 - 2.64e-59    8713.609 - 8.41e-58    9611.666 - 1.92e-53
+TPM2+I+R2         -4104.911    8613.822 - 1.25e-58    8711.572 - 2.33e-57    9613.500 - 7.69e-54
+TNe+I+R2          -4106.561    8617.121 - 2.41e-59    8714.871 - 4.48e-58    9616.798 - 1.48e-54
+K2P+R3            -4107.392    8618.785 - 1.05e-59    8716.534 - 1.95e-58    9618.462 - 6.43e-55
+TIM2e+I+R2        -4104.029    8614.058 - 1.11e-58    8712.893 -  1.2e-57    9618.684 - 5.76e-55
+TPM3+I+R2         -4107.510    8619.020 - 9.32e-60    8716.770 - 1.73e-58    9618.698 - 5.72e-55
+TPM2+R3           -4105.135    8616.269 - 3.69e-59    8715.104 - 3.98e-58    9620.895 - 1.91e-55
+TNe+R3            -4106.438    8618.875 -    1e-59    8717.710 - 1.08e-58    9623.501 - 5.18e-56
+TIM3e+I+R2        -4106.670    8619.340 - 7.95e-60    8718.175 - 8.58e-59    9623.966 -  4.1e-56
+JC+I+R2           -4117.598    8635.195 - 2.87e-63    8730.796 - 1.56e-61    9624.975 - 2.48e-56
+TPM3+R3           -4107.389    8620.778 - 3.87e-60    8719.613 - 4.18e-59    9625.404 -    2e-56
+TIM2e+R3          -4104.229    8616.457 - 3.36e-59    8716.386 -  2.1e-58    9626.032 - 1.46e-56
+TIM3e+R3          -4106.427    8620.855 - 3.73e-60    8720.783 - 2.33e-59    9630.430 - 1.62e-57
+JC+R3             -4117.452    8636.904 - 1.22e-63    8733.575 - 3.89e-62    9631.632 - 8.88e-58
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K3Pu+F+I+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.1807
+  A-T: 0.2288
+  C-G: 0.2288
+  C-T: 1.1807
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3837
+  pi(C) = 0.1526
+  pi(G) = 0.1622
+  pi(T) = 0.3015
+
+Rate matrix Q:
+
+  A   -0.7725    0.2854     0.358     0.129
+  C    0.7174    -1.452    0.0694    0.6657
+  G     0.847   0.06531    -1.476    0.5638
+  T    0.1642     0.337    0.3033   -0.8044
+
+Model of rate heterogeneity: Invar+FreeRate with 2 categories
+Proportion of invariable sites: 0.1022
+Site proportion and rates:  (0.874,0.8606) (0.02387,10.39)
+
+ Category  Relative_rate  Proportion
+  0         0              0.1022
+  1         0.8606         0.874
+  2         10.39          0.02387
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3972.0974 (s.e. 124.4066)
+Unconstrained log-likelihood (without tree): -5816.0276
+Number of free parameters (#branches + #model parameters): 205
+Akaike information criterion (AIC) score: 8354.1948
+Corrected Akaike information criterion (AICc) score: 8455.2235
+Bayesian information criterion (BIC) score: 9368.7187
+
+Total tree length (sum of branch lengths): 1.5070
+Sum of internal branch lengths: 1.2393 (82.2337% of tree length)
+
+WARNING: 55 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'M_minutiflora_PP135302.1' is drawn at root
+
++--M_minutiflora_PP135302.1
+|
+|              +--M_restingae_PP135330.1
+|           +--|
+|           |  +**M_pulchella_PP135329.1
+|        +--|
+|        |  |           +--M_tomentosa_PP135323.1
+|        |  |        +--|
+|        |  |        |  +--M_selloi_PP135322.1
+|        |  |     +**|
+|        |  |     |  |              +**M_anacardiifolia_PP135317.1
+|        |  |     |  |           +**|
+|        |  |     |  |           |  +**M_brasiliensis_PP135319.1
+|        |  |     |  |        +--|
+|        |  |     |  |        |  +--M_tijucensis_PP135321.1
+|        |  |     |  |     +--|
+|        |  |     |  |     |  +**M_flagellaris_PP135318.1
+|        |  |     |  |  +--|
+|        |  |     |  |  |  +--M_neosericea_PP135393.1
+|        |  |     |  +--|
+|        |  |     |     |  +--M_vittoriana_PP135316.1
+|        |  |     |     +--|
+|        |  |     |        |  +--M_spectabilis_PP135314.1
+|        |  |     |        +**|
+|        |  |     |           +**M_carvalhoi_PP135315.1
+|        |  |  +--|
+|        |  |  |  |     +--M_eugeniopsoides_PP135324.1
+|        |  |  |  |  +**|
+|        |  |  |  |  |  +--M_ferruginosa_PP135325.1
+|        |  |  |  +--|
+|        |  |  |     +**M_multipunctata_PP135326.1
+|        |  +**|
+|        |     |  +**M_ferruginea_PP135312.1
+|        |     +--|
+|        |        |                                                    +--V_tomentosa_MK797720.1
+|        |        +----------------------------------------------------|
+|        |                                                             |                    +--M_selloi_OQ269520.1
+|        |                                                             |                 +--|
+|        |                                                             |                 |  |  +**M_grammica_PP131206.1
+|        |                                                             |                 |  +**|
+|        |                                                             |                 |     |  +--M_grammica_PP131207.1
+|        |                                                             |                 |     +--|
+|        |                                                             |                 |        |  +--M_chytraculia_PP131205.1
+|        |                                                             |                 |        +**|
+|        |                                                             |                 |           +**M_loranthifolia_PP131208.1
+|        |                                                             |              +**|
+|        |                                                             |              |  |                    +--M_linearifolia_MW023318.1
+|        |                                                             |              |  |                 +--|
+|        |                                                             |              |  |                 |  |              +**M_lignosa_MW023317.1
+|        |                                                             |              |  |                 |  |           +--|
+|        |                                                             |              |  |                 |  |           |  +--M_splendens_PP131193.1
+|        |                                                             |              |  |                 |  |        +**|
+|        |                                                             |              |  |                 |  |        |  +--Myrcia__bracteata_MK797458.1
+|        |                                                             |              |  |                 |  |     +**|
+|        |                                                             |              |  |                 |  |     |  +**M_anceps_PP131190.1
+|        |                                                             |              |  |                 |  |  +**|
+|        |                                                             |              |  |                 |  |  |  +**M_lasiantha_PP131191.1
+|        |                                                             |              |  |                 |  +**|
+|        |                                                             |              |  |                 |     +--M_sylvatica_PP131194.1
+|        |                                                             |              |  |              +**|
+|        |                                                             |              |  |              |  |     +**M_salzmannii_PP131192.1
+|        |                                                             |              |  |              |  |  +--|
+|        |                                                             |              |  |              |  |  |  +**M_magnoliifolia_MK797460.1
+|        |                                                             |              |  |              |  +--|
+|        |                                                             |              |  |              |     +**M_deflexa_MK797459.1
+|        |                                                             |              |  |           +--|
+|        |                                                             |              |  |           |  +--M_splendens_MW023335.1
+|        |                                                             |              |  |        +**|
+|        |                                                             |              |  |        |  +--M_aethusa_MW023300.1
+|        |                                                             |              |  |     +--|
+|        |                                                             |              |  |     |  +--M_antonia_MW023305.1
+|        |                                                             |              |  |  +**|
+|        |                                                             |              |  |  |  |  +--M_lucasiae_PP131184.1
+|        |                                                             |              |  |  |  +**|
+|        |                                                             |              |  |  |     +--M_amazonica_MW023302.1
+|        |                                                             |              |  +--|
+|        |                                                             |              |     |        +--M_myrtillifolia_MW023329.1
+|        |                                                             |              |     |     +**|
+|        |                                                             |              |     |     |  +--M_myrtillifolia_MW023328.1
+|        |                                                             |              |     |  +**|
+|        |                                                             |              |     |  |  |  +**M_pinifolia_MW023325.1
+|        |                                                             |              |     |  |  +**|
+|        |                                                             |              |     |  |     +**M_blanchetiana_MW023333.1
+|        |                                                             |              |     +--|
+|        |                                                             |              |        |     +--M_ramuliflora_MW023326.1
+|        |                                                             |              |        |  +**|
+|        |                                                             |              |        |  |  |  +--M_lundiana_MW023320.1
+|        |                                                             |              |        |  |  +**|
+|        |                                                             |              |        |  |     |  +--M_coelosepala_MW023311.1
+|        |                                                             |              |        |  |     +**|
+|        |                                                             |              |        |  |        +**Myrcia_aff._neomontana_PP131185.1
+|        |                                                             |              |        +**|
+|        |                                                             |              |           +**M_littoralis_MW023319.1
+|        |                                                             |           +**|
+|        |                                                             |           |  +--M_thomasii_MW023340.1
+|        |                                                             |        +--|
+|        |                                                             |        |  |  +--M_obovata_MW023323.1
+|        |                                                             |        |  +--|
+|        |                                                             |        |     +--M_obovata_MW023322.1
+|        |                                                             |     +--|
+|        |                                                             |     |  |              +--M_nivea_MW023321.1
+|        |                                                             |     |  |           +--|
+|        |                                                             |     |  |           |  |     +--M_tumida_MW023308.1
+|        |                                                             |     |  |           |  |  +**|
+|        |                                                             |     |  |           |  |  |  +**M_stricta_MW023337.1
+|        |                                                             |     |  |           |  +**|
+|        |                                                             |     |  |           |     +**M_subalpestris_MW023338.1
+|        |                                                             |     |  |        +**|
+|        |                                                             |     |  |        |  |  +**M_gilsoniana_MW023336.1
+|        |                                                             |     |  |        |  +**|
+|        |                                                             |     |  |        |     +**M_laxiflora_MW023316.1
+|        |                                                             |     |  |     +**|
+|        |                                                             |     |  |     |  +**M_sp._Trad_MW023332.1
+|        |                                                             |     |  |  +**|
+|        |                                                             |     |  |  |  +**M_ovina_MW023324.1
+|        |                                                             |     |  +--|
+|        |                                                             |     |     +**M_rotundifolia_MW023327.1
+|        |                                                             |  +--|
+|        |                                                             |  |  |  +**M_citrifolia_MW023310.1
+|        |                                                             |  |  +**|
+|        |                                                             |  |     +**M_citrifolia_MW023309.1
+|        |                                                             +--|
+|        |                                                                |                          +--M_camapuanensis_MW023306.1
+|        |                                                                |                       +**|
+|        |                                                                |                       |  +**M_sp._Lima_MW023334.1
+|        |                                                                |                    +**|
+|        |                                                                |                    |  +**M_rufipes_MW023330.1
+|        |                                                                |                 +**|
+|        |                                                                |                 |  |     +**M_rufipes_MW023301.1
+|        |                                                                |                 |  |  +**|
+|        |                                                                |                 |  |  |  +**M_amethystina_MW023303.1
+|        |                                                                |                 |  +**|
+|        |                                                                |                 |     |  +**M_rufipes_MW023314.1
+|        |                                                                |                 |     +**|
+|        |                                                                |                 |        +**M_angustifolia_MW023304.1
+|        |                                                                |              +**|
+|        |                                                                |              |  |  +**M_decrescens_MW023313.1
+|        |                                                                |              |  +**|
+|        |                                                                |              |     +**M_dealbata_MW023312.1
+|        |                                                                |           +**|
+|        |                                                                |           |  +**M_torta_MW023341.1
+|        |                                                                |        +**|
+|        |                                                                |        |  +--M_subverticillaris_MW023339.1
+|        |                                                                |     +**|
+|        |                                                                |     |  |  +**M_vestita_MW023343.1
+|        |                                                                |     |  +--|
+|        |                                                                |     |     +**M_siriacoana_MW023331.1
+|        |                                                                |  +**|
+|        |                                                                |  |  |  +**M_tortuosa_MW023342.1
+|        |                                                                |  |  +**|
+|        |                                                                |  |     +**M_guianensis_MW023307.1
+|        |                                                                +**|
+|        |                                                                   +**M_laricina_MW023315.1
+|     +--|
+|     |  +--M_venulosa_PP135344.1
+|  +--|
+|  |  +--M_splendens_PP135304.1
++--|
+|  |     +**M_obversa_PP135374.1
+|  |  +--|
+|  |  |  |  +**M_neodimorpha_PP135376.1
+|  |  |  +**|
+|  |  |     +**M_hexasticha_PP135375.1
+|  +**|
+|     |           +--M_trimera_PP135377.1
+|     |        +**|
+|     |        |  +**Myrcia_aff._racemosa_PP135388.1
+|     |     +--|
+|     |     |  +**M_neosuaveolens_PP135385.1
+|     |  +--|
+|     |  |  |  +**M_neoregeliana_PP135387.1
+|     |  |  +**|
+|     |  |     +**M_neoobscura_PP135386.1
+|     +--|
+|        |  +**M_excoriata_PP135379.1
+|        +**|
+|           |  +**M_sucrei_PP135384.1
+|           +**|
+|              +**M_neoglabra_PP135383.1
+|
+|        +--M_sp.__PP135351.1
+|     +--|
+|     |  +--M_grandis_PP135361.1
+|  +--|
+|  |  |        +--M_multiflora_PP135362.1
+|  |  |     +**|
+|  |  |     |  |  +--M_sp.__PP135364.1
+|  |  |     |  +--|
+|  |  |     |     |     +--M_hirtiflora_PP135366.1
+|  |  |     |     |  +**|
+|  |  |     |     |  |  +**M_racemosa_PP135369.1
+|  |  |     |     +**|
+|  |  |     |        +**M_decorticans_PP135367.1
+|  |  |  +--|
+|  |  |  |  +--M_inaequiloba_PP135365.1
+|  |  +--|
+|  |     +--M_polyantha_PP135363.1
++**|
+   +--M_neocaudata_PP135370.1
+
+Tree in newick format:
+
+(M_minutiflora_PP135302.1:0.0150308765,(((((M_restingae_PP135330.1:0.0027066083,M_pulchella_PP135329.1:0.0000009997):0.0093843970,((((M_tomentosa_PP135323.1:0.0017738256,M_selloi_PP135322.1:0.0031047431):0.0082172908,(((((M_anacardiifolia_PP135317.1:0.0000009997,M_brasiliensis_PP135319.1:0.0000009997):0.0000009997,M_tijucensis_PP135321.1:0.0039229635):0.0012902652,M_flagellaris_PP135318.1:0.0000009997):0.0012864875,M_neosericea_PP135393.1:0.0013210923):0.0013230342,(M_vittoriana_PP135316.1:0.0013187424,(M_spectabilis_PP135314.1:0.0013184513,M_carvalhoi_PP135315.1:0.0000009997):0.0000009997):0.0026453445):0.0039419772):0.0000009997,((M_eugeniopsoides_PP135324.1:0.0027147403,M_ferruginosa_PP135325.1:0.0026321910):0.0000021518,M_multipunctata_PP135326.1:0.0000009997):0.0039418559):0.0028815470,(M_ferruginea_PP135312.1:0.0000028777,(V_tomentosa_MK797720.1:0.0722264908,(((((((M_selloi_OQ269520.1:0.0493247631,(M_grammica_PP131206.1:0.0000009997,(M_grammica_PP131207.1:0.0016276303,(M_chytraculia_PP131205.1:0.0016055411,M_loranthifolia_PP131208.1:0.0000009997):0.0000024129):0.0024193290):0.0000009997):0.0024093478,(((((((M_linearifolia_MW023318.1:0.0035975816,(((((M_lignosa_MW023317.1:0.0000009997,M_splendens_PP131193.1:0.0015499354):0.0073090483,Myrcia__bracteata_MK797458.1:0.0015654211):0.0000028742,M_anceps_PP131190.1:0.0000009997):0.0000009997,M_lasiantha_PP131191.1:0.0000009997):0.0000009997,M_sylvatica_PP131194.1:0.0017644743):0.0000009997):0.0031603404,((M_salzmannii_PP131192.1:0.0000021975,M_magnoliifolia_MK797460.1:0.0000024405):0.0024967829,M_deflexa_MK797459.1:0.0000009997):0.0050831118):0.0000025666,M_splendens_MW023335.1:0.0014655917):0.0079297208,M_aethusa_MW023300.1:0.0124202622):0.0000024552,M_antonia_MW023305.1:0.0016202259):0.0098706233,(M_lucasiae_PP131184.1:0.0035513916,M_amazonica_MW023302.1:0.0015624328):0.0000025177):0.0000021035,(((M_myrtillifolia_MW023329.1:0.0014737347,M_myrtillifolia_MW023328.1:0.0014290252):0.0000009997,(M_pinifolia_MW023325.1:0.0000009997,M_blanchetiana_MW023333.1:0.0000009997):0.0000009997):0.0000009997,((M_ramuliflora_MW023326.1:0.0014469201,(M_lundiana_MW023320.1:0.0014292501,(M_coelosepala_MW023311.1:0.0030448074,Myrcia_aff._neomontana_PP131185.1:0.0000009997):0.0000009997):0.0000009997):0.0000009997,M_littoralis_MW023319.1:0.0000009997):0.0000009997):0.0014070424):0.0018033264):0.0000009997,M_thomasii_MW023340.1:0.0028426794):0.0000009997,(M_obovata_MW023323.1:0.0027199127,M_obovata_MW023322.1:0.0010326350):0.0027506738):0.0018100968,(((((M_nivea_MW023321.1:0.0014073368,((M_tumida_MW023308.1:0.0014199934,M_stricta_MW023337.1:0.0000009997):0.0000009997,M_subalpestris_MW023338.1:0.0000009997):0.0000009997):0.0014037908,(M_gilsoniana_MW023336.1:0.0000009997,M_laxiflora_MW023316.1:0.0000009997):0.0000009997):0.0000009997,M_sp._Trad_MW023332.1:0.0000009997):0.0000009997,M_ovina_MW023324.1:0.0000009997):0.0000009997,M_rotundifolia_MW023327.1:0.0000009997):0.0033656646):0.0014192775,(M_citrifolia_MW023310.1:0.0000009997,M_citrifolia_MW023309.1:0.0000009997):0.0000009997):0.0028349175,(((((((((M_camapuanensis_MW023306.1:0.0014466216,M_sp._Lima_MW023334.1:0.0000009997):0.0000009997,M_rufipes_MW023330.1:0.0000009997):0.0000009997,((M_rufipes_MW023301.1:0.0000009997,M_amethystina_MW023303.1:0.0000009997):0.0000009997,(M_rufipes_MW023314.1:0.0000009997,M_angustifolia_MW023304.1:0.0000009997):0.0000009997):0.0000009997):0.0000009997,(M_decrescens_MW023313.1:0.0000009997,M_dealbata_MW023312.1:0.0000009997):0.0000009997):0.0000009997,M_torta_MW023341.1:0.0000009997):0.0000009997,M_subverticillaris_MW023339.1:0.0014216055):0.0000009997,(M_vestita_MW023343.1:0.0000009997,M_siriacoana_MW023331.1:0.0000009997):0.0014172752):0.0000009997,(M_tortuosa_MW023342.1:0.0000009997,M_guianensis_MW023307.1:0.0000009997):0.0000009997):0.0000009997,M_laricina_MW023315.1:0.0000009997):0.0000009997):0.0644194257):1.0548782313):0.0054666582):0.0000024104):0.0026255520,M_venulosa_PP135344.1:0.0083961672):0.0013560665,M_splendens_PP135304.1:0.0141649014):0.0012341798,((M_obversa_PP135374.1:0.0000009997,(M_neodimorpha_PP135376.1:0.0000009997,M_hexasticha_PP135375.1:0.0000009997):0.0000009997):0.0012865970,((((M_trimera_PP135377.1:0.0052574869,Myrcia_aff._racemosa_PP135388.1:0.0000009997):0.0000009997,M_neosuaveolens_PP135385.1:0.0000009997):0.0026094414,(M_neoregeliana_PP135387.1:0.0000009997,M_neoobscura_PP135386.1:0.0000009997):0.0000009997):0.0012887358,(M_excoriata_PP135379.1:0.0000009997,(M_sucrei_PP135384.1:0.0000009997,M_neoglabra_PP135383.1:0.0000009997):0.0000009997):0.0000009997):0.0025914129):0.0000028742):0.0050724876,(((M_sp.__PP135351.1:0.0047425399,M_grandis_PP135361.1:0.0041770703):0.0013804382,(((M_multiflora_PP135362.1:0.0040473533,(M_sp.__PP135364.1:0.0040028895,((M_hirtiflora_PP135366.1:0.0013498979,M_racemosa_PP135369.1:0.0000009997):0.0000009997,M_decorticans_PP135367.1:0.0000009997):0.0000009997):0.0013189132):0.0000009997,M_inaequiloba_PP135365.1:0.0013069247):0.0012265534,M_polyantha_PP135363.1:0.0027273681):0.0025700594):0.0012995237,M_neocaudata_PP135370.1:0.0014572314):0.0000028742);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t muscle_trnl.fasta.treefile -m "K3Pu{1.18066,0.228836}+F{0.383655,0.152638,0.162182,0.301525}+I{0.102175}+R2{0.87396,0.86063,0.0238652,10.3852}" --length 1042
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s muscle_trnl.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s muscle_trnl.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jul 10 14:36:32 2025
+Total CPU time used: 49.9065 seconds (0h:0m:49s)
+Total wall-clock time used: 49.8836 seconds (0h:0m:49s)
+
